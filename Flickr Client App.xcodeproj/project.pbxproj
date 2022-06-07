@@ -15,6 +15,9 @@
 		C945C7D7284E6FE00081F3EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C945C7D5284E6FE00081F3EF /* LaunchScreen.storyboard */; };
 		C945C7E3284E73850081F3EF /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C945C7E2284E73850081F3EF /* PhotoTableViewCell.swift */; };
 		C945C7E6284E763F0081F3EF /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C945C7E5284E763F0081F3EF /* PhotoDetailViewController.swift */; };
+		C96C7AF9284EF12300817CD1 /* PhotosResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C7AF8284EF12300817CD1 /* PhotosResponse.swift */; };
+		C96C7AFB284EF13A00817CD1 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C7AFA284EF13A00817CD1 /* Photos.swift */; };
+		C96C7AFD284EF14300817CD1 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C7AFC284EF14300817CD1 /* Photo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		C945C7D8284E6FE00081F3EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C945C7E2284E73850081F3EF /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
 		C945C7E5284E763F0081F3EF /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+		C96C7AF8284EF12300817CD1 /* PhotosResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosResponse.swift; sourceTree = "<group>"; };
+		C96C7AFA284EF13A00817CD1 /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		C96C7AFC284EF14300817CD1 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,7 @@
 		C945C7E0284E70E40081F3EF /* RecentPhotos */ = {
 			isa = PBXGroup;
 			children = (
+				C96C7AF7284EF10D00817CD1 /* Model */,
 				C945C7E8284E767A0081F3EF /* View */,
 				C945C7E7284E765E0081F3EF /* Controller */,
 			);
@@ -143,6 +150,16 @@
 			children = (
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		C96C7AF7284EF10D00817CD1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C96C7AF8284EF12300817CD1 /* PhotosResponse.swift */,
+				C96C7AFA284EF13A00817CD1 /* Photos.swift */,
+				C96C7AFC284EF14300817CD1 /* Photo.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,11 +233,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C96C7AFD284EF14300817CD1 /* Photo.swift in Sources */,
 				C945C7E3284E73850081F3EF /* PhotoTableViewCell.swift in Sources */,
 				C945C7CF284E6FDF0081F3EF /* RecentPhotosViewController.swift in Sources */,
 				C945C7CB284E6FDF0081F3EF /* AppDelegate.swift in Sources */,
+				C96C7AF9284EF12300817CD1 /* PhotosResponse.swift in Sources */,
 				C945C7E6284E763F0081F3EF /* PhotoDetailViewController.swift in Sources */,
 				C945C7CD284E6FDF0081F3EF /* SceneDelegate.swift in Sources */,
+				C96C7AFB284EF13A00817CD1 /* Photos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
